@@ -16,6 +16,8 @@ Extras for [Pi](https://github.com/earendil-works/pi), the minimalist extensible
 | [pi-subagents](https://github.com/DecibillyJoel/pi-subagents) | Sub-agents and workflow orchestration for Pi: parallel execution, a live widget, a fleet view, and custom agent definitions. Fork of `tintinweb/pi-subagents` that prompts the user when the agent tries to explicitly select a subagent model and allows interrupting a running command inside a subagent. |
 | [pi-paster](https://github.com/DecibillyJoel/pi-paster) | Turns pasted, dragged, or clipboard images into first-class Pi attachments. Fork of `beowulf11/pi-paster` that fixes an upstream steering-related bug and also allows the extension's paste keybind to paste text. |
 | [superpowers](https://github.com/DecibillyJoel/superpowers) | Agentic skills framework and development methodology. Fork of `obra/superpowers` that corrects false harness and cost claims in the skills: an omitted subagent model inherits the calling session's model rather than the priciest tier, and any model name needs your approval before the agent dispatches it. |
+| [pi-nanogpt](https://github.com/DecibillyJoel/pi-nanogpt) | NanoGPT provider for Pi: catalog-backed models, routing suffixes, service tiers, a stop guard, and an image guard. |
+| [pi-reasoning-replay-fix](https://github.com/DecibillyJoel/pi-reasoning-replay-fix) | Heals replayed reasoning-model tool-call turns, so a resumed session stops returning `400 missing_tool_call_reasoning`. |
 
 #### Obsidian plugins / plugin mods
 
